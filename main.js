@@ -26,3 +26,22 @@ function sum(a, b) {
 }
 
 console.log(sum(4, 6));
+
+//
+function multiply(x, y) {
+  let results = x * y;
+  return results;
+}
+
+console.log(multiply(6, 10));
+
+//
+
+function greet(name) {
+  let greet = `Hello, ${name} `;
+  return greet;
+}
+
+console.log(greet(`magda`));
+
+//

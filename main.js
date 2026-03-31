@@ -15,6 +15,8 @@ function calculateSale(price) {
   return result;
 }
 
+// function call  - function name + (argument)
+
 console.log(calculateSale(50));
 console.log(calculateSale(20));
 
@@ -45,3 +47,18 @@ function greet(name) {
 console.log(greet(`magda`));
 
 //
+let num = 34;
+
+num > 0 ? console.log(greet("natia")) : console.log("uarkofiti ricxvia");
+
+// console.log(num)
+//    ? :
+
+function getGrade(score) {
+  // 90+ → "A"
+  // 70-89 → "B"
+  // 50-69 → "C"
+  // below 50 → "F"
+}
+
+num > 0 ? (num = num + 1) : console.log("uarkofiti ricxvia");

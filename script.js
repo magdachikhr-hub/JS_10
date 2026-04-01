@@ -17,6 +17,31 @@ console.log(getGrade(79));
 //
 
 function formatName(name) {
-  // "nika" → "Nika"
-  // first letter uppercase, rest lowercase
+  let formatName = name[0].toUpperCase() + name.slice(1).toLowerCase();
+  return formatName;
 }
+
+let nameOfUser = "nika";
+
+console.log(formatName(nameOfUser));
+
+//
+function logIn(username, password) {
+  // correct username = "admin"
+  // correct password = "1234"
+  // return:
+  // "Welcome admin" if correct
+  // "Wrong password" if username correct but password wrong
+  // "User not found" if username wrong
+
+  if (username === "admin" && password === "1234") {
+    return "welcome admin";
+  } else if (username === "admin" && password !== "1234") {
+    return "wrong password";
+  } else if (username !== "admin") {
+    return "user not found";
+  } else {
+  }
+}
+
+console.log(logIn("admin", "1111"));

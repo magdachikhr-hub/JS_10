@@ -27,13 +27,6 @@ console.log(formatName(nameOfUser));
 
 //
 function logIn(username, password) {
-  // correct username = "admin"
-  // correct password = "1234"
-  // return:
-  // "Welcome admin" if correct
-  // "Wrong password" if username correct but password wrong
-  // "User not found" if username wrong
-
   if (username === "admin" && password === "1234") {
     return "welcome admin";
   } else if (username === "admin" && password !== "1234") {
@@ -45,3 +38,45 @@ function logIn(username, password) {
 }
 
 console.log(logIn("admin", "1111"));
+
+//
+
+function getDiscount(price) {
+  if (price > 100) {
+    return price * 0.8;
+  } else if (price > 50) {
+    return price * 0.9;
+  } else {
+    return price;
+  }
+}
+
+console.log(getDiscount(200));
+
+// exercises
+
+// function getGrade(score) {
+//    90+ → "A"
+//    70-89 → "B"
+//    50-69 → "C"
+//    below 50 → "F"
+// }
+// function formatName(name) {
+//    "nika" → "Nika"
+//    first letter uppercase, rest lowercase
+// }
+
+// function login(username, password) {
+//    correct username = "admin"
+//    correct password = "1234"
+//    return:
+//    "Welcome admin" if correct
+//   "Wrong password" if username correct but password wrong
+//   "User not found" if username wrong
+// }
+// function getDiscount(price) {
+//   if price > 100 → 20% discount
+//    if price > 50 → 10% discount
+//    otherwise → no discount
+//   return final price after discount
+// }

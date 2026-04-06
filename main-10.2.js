@@ -62,3 +62,9 @@ document.getElementById("second").innerHTML = "The Value is " + value;
 // you can name it anything - function toCelsius(x) { return (5 / 9) * (x - 32); }
 
 // Multiple parameters - function add(a, b) { return a + b; }
+// => is used in arrow functions (a shorter way to write functions). - The expression after => is automatically returned
+// If you use { }, you must write return yourself - => → defines an arrow function - return → sends a value back from a function
+// => creates the function, - return gives the result.
+
+//arguments - in the second one
+// switch - ?? and the second one for the functions

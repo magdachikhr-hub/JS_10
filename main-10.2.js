@@ -42,3 +42,23 @@ document.getElementById("first").innerHTML = sayHello();
 // element.textContent = "Hello";
 // element.style.color = "red";
 // element.classList.add("active");
+
+function toCelsius(fahrenheit) {
+  return (5 / 9) * (fahrenheit - 32);
+}
+
+let value = toCelsius(50);
+
+console.log(value);
+document.getElementById("second").innerHTML = "The Value is " + value;
+
+// function - A keyword used to define a function.
+// toCelsius - The name of the function (you can call it later).
+// fahrenheit - A parameter — input value passed into the function
+// toCelsius is the function name - A label or name for a block of code, You use this name when you want to run (call) the function
+// Parameter: (farenheit) - A parameter is a variable that receives a value when the function is called. - farenheit = an empty box - When you call the function, you put something inside that box
+// Parameter → the variable in the function - function toCelsius(fahrenheit)
+// Argument → the value you pass - toCelsius(68)
+// you can name it anything - function toCelsius(x) { return (5 / 9) * (x - 32); }
+
+// Multiple parameters - function add(a, b) { return a + b; }

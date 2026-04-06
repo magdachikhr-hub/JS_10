@@ -16,3 +16,29 @@ document.getElementById("first").innerHTML = sayHello();
 // = (assignment operator) - Assigns a value to something (here, it sets the content of the element).
 // sayHello() - A function call - it runs the function named sayHello.
 // It selects an element by ID and sets its inner content to the result of a function.
+
+// other stuff that can be used
+// Instead of document - document is the main object for the page, but there are others:
+// window → represents the browser window
+// console → used for debugging (e.g. console.log())
+// document.body → the <body> of the page
+
+// Instead of getElementById() -
+// document.getElementById("id") → by ID
+// document.getElementsByClassName("class") → by class
+// document.getElementsByTagName("p") → by tag name
+// document.querySelector("selector") → first match (VERY common)
+// document.querySelectorAll("selector") → all matches
+
+// Instead of .innerHTML -
+// innerHTML → sets HTML content
+// textContent → sets plain text
+// innerText → similar to textContent (but respects styling)
+// value → for input fields
+// style → to change CSS
+// classList → to add/remove classes
+
+// examples:
+// element.textContent = "Hello";
+// element.style.color = "red";
+// element.classList.add("active");

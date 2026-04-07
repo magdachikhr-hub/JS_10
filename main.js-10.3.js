@@ -38,3 +38,12 @@ switch (month) {
 // case "ianvari":  console.log("axali celia")
 //break
 
+//loop
+// index is the same as i - used in cycles
+// i = i + 1 - same as i++
+//i-- - minus one
+//index+=1 - adds one to itself
+
+for (let i = 0; i < 5; i++) {
+  console.log("magda");
+}

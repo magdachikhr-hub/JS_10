@@ -67,4 +67,4 @@ document.getElementById("second").innerHTML = "The Value is " + value;
 // => creates the function, - return gives the result.
 
 //arguments - in the second one
-// switch - ?? and the second one for the functions
+//and the second one for the functions

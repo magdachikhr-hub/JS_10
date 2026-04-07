@@ -63,6 +63,16 @@ for (let i = 0; i < 5; i++) {
 //   console.log(i);
 // }
 
-for (let i = 10; i >= 1; i--) {
-  console.log(i);
+// for (let i = 10; i >= 1; i--) {
+//   console.log(i);
+// }
+
+//
+
+let sum3 = 0;
+
+for (let i = 0; i < 10; i++) {
+  sum3 = sum3 + i;
 }
+
+console.log(sum3);
